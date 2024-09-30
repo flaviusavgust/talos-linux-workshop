@@ -52,7 +52,7 @@ talosctl --talosconfig=talosconfig config endpoint <IP>
 Переместите `talosconfig` в домашнюю директорию:
 ```bash
 mkdir ~/.talos
-mv talosconfig ~/.talos/config
+cp talosconfig ~/.talos/config
 ```
 
 ## Применение конфигураций
