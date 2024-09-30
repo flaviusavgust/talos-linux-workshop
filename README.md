@@ -20,7 +20,7 @@ curl -sL https://talos.dev/install | sh
 
 ### Windows exe file
 
-[talosctl-windows-amd64.exe](https://github.com/siderolabs/talos/releases/tag/v1.7.4#:~:text=talosctl%2Dwindows%2Damd64.exe)
+[talosctl-windows-amd64.exe](https://github.com/siderolabs/talos/releases/download/v1.7.4/talosctl-windows-amd64.exe)
 
 ## Проверка состояния машин
 
