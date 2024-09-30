@@ -18,9 +18,16 @@ brew install siderolabs/tap/talosctl
 curl -sL https://talos.dev/install | sh
 ```
 
-### Windows exe file
+### Windows
+1. Скачайте [talosctl-windows-amd64.exe](https://github.com/siderolabs/talos/releases/download/v1.7.4/talosctl-windows-amd64.exe).
+2. Переименуйте файл в `talosctl.exe`.
+3. Переместите его в папку `C:\bin`. Если папки `C:\bin` еще не существует, создайте ее.
+4. Добавьте `C:\bin` в системную переменную `PATH` с помощью команды (запустите командную строку от имени администратора):
+   ```cmd
+   setx PATH "%PATH%;C:\bin"
+   ```
 
-[talosctl-windows-amd64.exe](https://github.com/siderolabs/talos/releases/download/v1.7.4/talosctl-windows-amd64.exe)
+# Начало работы с Talos Linux
 
 ## Проверка состояния машин
 
