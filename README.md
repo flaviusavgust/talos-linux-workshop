@@ -4,7 +4,7 @@
 
 ## Список машин Talos Linux с публичными адресами
 
-[Online Excel Table with White IP Talos Linux VMs](https://choosealicense.com/licenses/mit/)
+[Table with White IP Talos Linux VMs](https://docs.google.com/spreadsheets/d/1Ka_Ru00UYV6pgMDJsYa5aTel1Cu8JeiHs60cwn5-NU4/edit?usp=sharing)
 
 ## Установка `talosctl`
 
