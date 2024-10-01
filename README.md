@@ -90,7 +90,6 @@ talosctl -n <IP> dashboard
 
 Для проверки состояния сервисов используйте команды:
 ```bash
-talosctl -n <IP> health
 talosctl -n <IP> service
 talosctl -n <IP> logs -f <service_name>
 ```
