@@ -50,7 +50,7 @@ talosctl gen secrets -o secrets.yaml
 
 Создайте конфигурации для кластера:
 ```bash
-talosctl gen config <cluster-name> <cluster-endpoint:port> --with-secrets secrets.yaml
+talosctl gen config <cluster-name> https://<cluster-endpoint>:<port> --with-secrets secrets.yaml
 ```
 
 ## Работа с `talosconfig`
