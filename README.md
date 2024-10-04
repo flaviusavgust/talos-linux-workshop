@@ -70,8 +70,8 @@ cp talosconfig ~/.talos/config
 
 Примените конфигурации для `control-plane` и `worker`:
 ```bash
-talosctl apply config -f controlplane.yaml -n <IP> --insecure
-talosctl apply config -f worker.yaml -n <IP> --insecure
+talosctl apply-config -f controlplane.yaml -n <IP> --insecure
+talosctl apply-config -f worker.yaml -n <IP> --insecure
 ```
 
 ## Проверка кластера
